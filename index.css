@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/**{
+  background-image: url("back.jpg");
+}*/
+
+/* styles.css */
+
+nav {
+  background-color: #f5f3ed;
+  display: flex;
+  justify-content: space-between; /* Place items at the beginning and end */
+  align-items: center; /* Center items vertically */
+  padding: 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0;
+  padding: 0 15px; /* Add padding to each li */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+
+/*TopContainComponent-css*/
+
+.my-Topcomponent {
+  background-image: url("back.jpg");
+  padding: 20px;
+}
+
+/*.middle-ContainComponent-css*/
+
+
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+ text-align: left; /* Align text to the left within the container */
+  max-width: 800px; /* Set a maximum width if desired */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+}
+
+
+/*ContactComponent-container.css*/
+
+.ContactComponent-container {
+  background-image: url("logo.svg");
+  padding: 200px;
+}
+
+.ContactContanier-formcss {
+ background-color: #2e2726;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ReservationContanier-formcss {
+ background-color: #4d4543;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+/*ViewItemComponent-ContainComponent-css*/
+
+.ViewItemComponent-container {
+  background-image: url("back.jpg");
+  padding: 20px;
+}
+
+.ViewItemComponentText-container {
+  background-image: url("back.jpg");
+  padding: 20px;
+}
+
+/*NewsAndEvenetsComponent-container-css*/
+
+.NewsAndEvenetsComponent-container {
+ background-image: url("back.jpg");
+  padding: 20px;
+}
+
+
+/* ColoredButton.css */
+
+.colored-button {
+  background-color: #bd542d; 
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* ColoredText-rating */
+.colored-textRating {
+  text-decoration: underline;
+  color: #9c9998;
+}
+
+
+/*NewsAndEvenetsRateOne.css*/
+
+.NewsAndEventsRateOne {
+ text-align: left; 
+  max-width: 10000px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.NewsAndEventsRateTwo {
+ text-align: left; 
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px;
+
+}
+
+/*colorStar.css*/
+
+.coloredRating {
+color: #bd542d; 
+}
+
+.ratingTextDivOne {
+ text-align: left; 
+  max-width: 8000px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.ratingTextDivTwo {
+ text-align: left; 
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.ratingTextDivThree {
+ text-align: left; 
+  max-width: 400px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
+
+.ratingTextDivFour {
+ text-align: left; 
+  max-width: 400px; 
+  margin: 0 auto; 
+  padding: 20px;
+}
